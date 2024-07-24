@@ -1,0 +1,233 @@
+body {
+    background-color: #2F455C;
+}
+
+.form-container {
+    max-width: 1170px;
+    margin-inline: auto;
+    background-color: #fff;
+    padding: 10px 20px;
+
+}
+
+.form-container p {
+    color: #565656;
+    font-size: 14px;
+}
+
+.form-container form {
+    width: 65%;
+}
+
+.inline-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 15px -15px;
+}
+
+.inline-form-col {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.input-control {
+    display: block !important;
+    width: calc(100% - 15px) !important;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0.25rem !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    height: auto!important;
+}
+
+.input-control[type=file] {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+
+.check-box-list {
+    padding-inline-start: 0;
+}
+
+.check-box-list li {
+    list-style-type: none;
+    list-style: none;
+}
+
+
+
+.abstract-template {
+    width: 75px;
+    height: 33px;
+    border: 2px solid #34EAD8;
+    text-align: center;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+label {
+    font-weight: 700;
+    display: inline-block;
+}
+
+.inline-form label,
+.country-label {
+    font-weight: 400;
+    margin-block-end: 15px;
+    color: #565656;
+    font-size: 14px;
+}
+
+.check-box-list label {
+    font-weight: 400;
+    margin-block-end: 15px;
+    color: #565656;
+
+}
+
+.abstract-label {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.submit-button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s;
+    background-color: #ced4da;
+    margin-block-start: 10px;
+    font-weight: 700;
+}
+
+
+.with-presentation {
+    display: none;
+}
+
+small.mme-see-errors {
+    display: block;
+    color: #f00;
+}
+
+
+.dropzone-input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    width: 1px !important;
+    border: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.file-uploader {
+    border: 1px dashed #ccc;
+    border-radius: 2px;
+    background: #fcfcfc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/* .file-uploader .dz-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.file-uploader .dz-preview {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    cursor: default;
+}
+.file-uploader .dz-preview .dz-image{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gIDwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+IDxzdmcgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGZpbGw9IiMwMDAwMDAwZiI+PGc+PHBhdGggZD0iTSA0LDMybCAyNCwwIGMgMS4xMDQsMCwgMi0wLjg5NiwgMi0yTCAzMCwyIGMwLTEuMTA0LTAuODk2LTItMi0yTCA0LDAgQyAyLjg5NiwwLCAyLDAuODk2LCAyLDJsMCwyOCBDIDIsMzEuMTA0LCAyLjg5NiwzMiwgNCwzMnogTSA0LDJsIDI0LDAgbDAsMjggTCA0LDMwIEwgNCwyIHpNIDIzLDZsLTgsMCBDIDE0LjQ0OCw2LCAxNCw2LjQ0OCwgMTQsN0MgMTQsNy41NTIsIDE0LjQ0OCw4LCAxNSw4bCA4LDAgQyAyMy41NTIsOCwgMjQsNy41NTIsIDI0LDcgQyAyNCw2LjQ0OCwgMjMuNTUyLDYsIDIzLDZ6TSAyMywxMmwtMTQsMCBDIDguNDQ4LDEyLCA4LDEyLjQ0OCwgOCwxM0MgOCwxMy41NTIsIDguNDQ4LDE0LCA5LDE0bCAxNCwwIEMgMjMuNTUyLDE0LCAyNCwxMy41NTIsIDI0LDEzIEMgMjQsMTIuNDQ4LCAyMy41NTIsMTIsIDIzLDEyek0gMjMsMThsLTE0LDAgQyA4LjQ0OCwxOCwgOCwxOC40NDgsIDgsMTlDIDgsMTkuNTUyLCA4LjQ0OCwyMCwgOSwyMGwgMTQsMCBjIDAuNTUyLDAsIDEtMC40NDgsIDEtMSBDIDI0LDE4LjQ0OCwgMjMuNTUyLDE4LCAyMywxOHpNIDIzLDI0bC0xNCwwIEMgOC40NDgsMjQsIDgsMjQuNDQ4LCA4LDI1QyA4LDI1LjU1MiwgOC40NDgsMjYsIDksMjZsIDE0LDAgYyAwLjU1MiwwLCAxLTAuNDQ4LCAxLTEgQyAyNCwyNC40NDgsIDIzLjU1MiwyNCwgMjMsMjR6Ij48L3BhdGg+PC9nPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}
+
+
+.file-uploader .dz-preview .dz-remove {
+    position: absolute;
+    right: 0;
+    text-indent: -9999999px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+} */
+.recaptcha-hidden {
+
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    width: 1px !important;
+    border: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}

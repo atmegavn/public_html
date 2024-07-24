@@ -1,0 +1,95 @@
+body{
+    position: relative;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-image: url(../fonts/grid.svg);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: auto;
+    background-position: top;
+    background-color: #2F455C !important;
+}
+
+.btn-outline-info {
+    color: #1ed9c6 !important;
+    border-color: #1ed9c6 !important;
+}
+
+.menu-item{
+    color: white !important;
+    font-weight: 700;
+}
+
+.menu-item:hover{
+    color: #1ed9c6 !important;
+    font-weight: 700;
+}
+
+.dropdown-menu{
+    padding: 25px !important;
+    border-radius: 25px !important;
+}
+
+
+.elementor-button-content-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+
+.elementor-button-text {
+    flex-grow: 1;
+    order: 10;
+    display: inline-block
+}
+
+.elementor-button {
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0;
+    background-color: #f4f4f4;
+    color: #696a87;
+    font-family: GilmerHeavy;
+    transition: color .4s ease, background-color .4s ease, background .4s ease, border-color .4s ease, box-shadow .4s ease;
+}
+
+.elementor-button .elementor-size-md {
+    padding: .625rem 3rem;
+    font-size: 1rem;
+    line-height: 1.875;
+    border-radius: 50px;
+}
+
+.elementor-button.elementor-size-lg {
+    padding: 1.1rem 3.75rem;
+    font-size: 1rem;
+    line-height: 1.875;
+    border-radius: 50px;
+}
+
+.elementor-button .elementor-button-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementor-element .elementor-button .elementor-button-text {
+    order: 2;
+}
+
+.elementor-element .elementor-button i,
+.elementor-element .elementor-button i:before {
+    display: block;
+}
+
+.elementor-button:hover{
+    background: #1ed9c6 !important;
+    color: #fff !important;
+}
+
+.elementor-size-md {
+    font-size: 16px !important;
+    padding: 15px 30px !important;
+    border-radius: 4px !important;
+}

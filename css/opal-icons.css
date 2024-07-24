@@ -1,0 +1,166 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: FontAwesome;
+  src: url(../fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
+  src: url(../fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont3e6e.woff?v=4.7.0) format("woff"),
+    url(../fonts/fontawesome-webfont3e6e.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+
+/* Deprecated as of 4.4.0 */
+
+@keyframes b {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.fa-chevron-right:before {
+  content: "";
+}
+
+.fa-arrow-left:before {
+  content: "";
+}
+
+.fa-arrow-up:before {
+  content: "";
+}
+
+.fa-plus:before {
+  content: "";
+}
+
+.fa-minus:before {
+  content: "";
+}
+
+@font-face {
+  font-family: opal-icon;
+  src: url(../fonts/opal-icon.eot);
+  src: url(../fonts/opal-icond41d.eot?#iefix) format("eot"), url(../fonts/opal-icon.woff2) format("woff2"), url(../fonts/opal-icon.woff) format("woff"), url(../fonts/opal-icon.ttf) format("truetype"),
+    url(../fonts/opal-icon.svg#opal-icon) format("svg");
+}
+
+.elementor-menu-toggle.elementor-active i:before,
+.elementor-menu-toggle i:before,
+.list-check li:before,
+.owl-theme.owl-carousel .owl-nav [class*="owl-"]:before,
+[class*="opal-icon-"]:before,
+blockquote:before {
+  font-family: opal-icon;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.opal-icon-arrow-left:before {
+  content: "";
+}
+
+.opal-icon-arrow-right:before {
+  content: "";
+}
+
+.opal-icon-chevron-left:before {
+  content: "";
+}
+
+.opal-icon-chevron-right:before {
+  content: "";
+}
+
+.elementor-menu-toggle.elementor-active i:before {
+  content: "";
+}
+
+.opal-icon-coffee:before {
+  content: "";
+}
+
+.opal-icon-email_2:before {
+  content: "";
+}
+
+.opal-icon-experience:before {
+  content: "";
+}
+
+.opal-icon-inspiration:before {
+  content: "";
+}
+
+.opal-icon-location_2:before {
+  content: "";
+}
+
+
+.owl-theme.owl-carousel .owl-nav .owl-prev[class*="owl-"]:before {
+  content: "";
+}
+
+
+.owl-theme.owl-carousel .owl-nav .owl-next[class*="owl-"]:before {
+  content: "";
+}
+
+.opal-icon-map-marker-alt:before {
+  content: "";
+}
+
+.opal-icon-media:before {
+  content: "";
+}
+
+.elementor-menu-toggle i:before {
+  content: "";
+}
+
+.opal-icon-network:before {
+  content: "";
+}
+
+.opal-icon-party:before {
+  content: "";
+}
+
+.opal-icon-search-plus:before {
+  content: "";
+}
+
+
+.opal-icon-times:before {
+  content: "";
+}
+
+.opal-icon-toggle:before {
+  content: "";
+}
