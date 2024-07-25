@@ -1,7 +1,6 @@
 body{
     position: relative;
     word-wrap: break-word;
-    overflow: hidden;
     background-image: url(../fonts/grid.svg);
     background-attachment: fixed;
     background-repeat: repeat-y;
