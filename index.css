@@ -115,3 +115,20 @@ body{
     background-position: 50%;
     background-size: 100% 100%;
 }
+
+.text-1{
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.text-2{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+a{
+    text-decoration: none !important;
+}
