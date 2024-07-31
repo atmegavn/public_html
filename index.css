@@ -1,7 +1,7 @@
 body{
     position: relative;
     word-wrap: break-word;
-    background-image: url(../fonts/grid.svg);
+    background-image: url(fonts/grid.svg);
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: auto;
